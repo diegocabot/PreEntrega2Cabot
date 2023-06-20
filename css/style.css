@@ -50,7 +50,7 @@
     border-radius: 10px;
 }
 
-.clubesindex{
+.clubes{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -154,7 +154,7 @@
         width: 100%;
     }
 
-    .clubesindex{
+    .clubes{
         flex-direction: column;
         padding-bottom: 5px;
         background-color: white;
