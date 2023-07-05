@@ -147,17 +147,20 @@
 @media (min-width:0px) and (max-width:576px) {
     .encabezadoindex{
         display: flex;
-        align-items: center;
         width: 100%;
         background-image: url(../img/16432291056672.jpeg);
+        background-position: center center;
+        background-attachment: fixed;
         background-size: cover;
-        background-position: center;
     }
     .titulo{
-        justify-content: center;align-items:flex-end;
+        display: flex;
+        justify-content: center;
+        align-items: end;
         text-align: center;
-        padding-right: 105px;
-        width: 100%;
+        padding-left: 0px;
+
+
     }
     .infoYfoto{
         flex-direction: column;
